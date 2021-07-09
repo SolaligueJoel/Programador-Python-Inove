@@ -42,4 +42,18 @@ if __name__ == '__main__':
 
     # personal_valido = [.....]
 
+    import numpy as np
+
+    #1)
+    personal_1_10 = [x for x in accesos if x<11]
+    print('De la lista ',personal_1_10,'ingresaron:',len(personal_1_10), 'personas.')
+
+
+
+    #2)
+    personal_valido = [x for x in id_validos if x in accesos]
+    print(personal_valido)
+
+
+
     print("terminamos")

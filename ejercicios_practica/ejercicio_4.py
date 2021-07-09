@@ -31,4 +31,10 @@ if __name__ == '__main__':
     # hacer negativo alguno de los números de la lista?
     # ¿Qué sucede con isdigit? Sorprendente no?
 
+    #1)
+    string_to_int = [int(x) if x.isdigit() else 0 for x in list_numeros_str]
+    print(string_to_int)
+
+    #al ser negativos los numeros, isdigit() devuelve 0.
+
     print("terminamos")

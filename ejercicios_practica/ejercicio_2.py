@@ -36,4 +36,13 @@ if __name__ == '__main__':
 
     # palabras_len = list(map....)
 
+    #1)
+    len_string = lambda x: len(x)
+    tamaño = len_string("Este es un texto de prueba ")
+    print(tamaño)
+
+    #2)
+    palabras_len = list(map(lambda x: len(x),palabras))
+    print(palabras_len)
+
     print("terminamos")

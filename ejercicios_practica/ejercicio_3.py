@@ -45,4 +45,20 @@ if __name__ == '__main__':
 
     # dias_mes = [.....]
 
+    import random
+
+    #1)
+    lista_0_10 = [random.randint(0,10) for x in range(11)]
+    print(lista_0_10)
+
+
+    #2)
+    tabla_5 = [x*5 for x in range(0,11)]
+    print(tabla_5)
+
+    #3)
+    dias_mes = [random.randint(1,30) for x in range(10)]
+    print(dias_mes)
+    
+
     print("terminamos")
