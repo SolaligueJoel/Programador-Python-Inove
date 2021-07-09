@@ -46,7 +46,7 @@ if __name__ == '__main__':
     if sum(suma) <= 21:
         print('La suma de los numeros es: ',suma,'y los numeros recolectados son:',num_random)
     else:
-        print('Perdiste')
+        print('Perdiste :(')
 
 
     print("terminamos")
